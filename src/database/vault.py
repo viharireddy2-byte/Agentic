@@ -16,10 +16,8 @@ Arrow interface with zero-copy registration wherever possible.
 
 from __future__ import annotations
 
-import json
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
 
 import duckdb
 import polars as pl

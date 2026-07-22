@@ -28,8 +28,8 @@ def _lazy_register() -> None:
     keeps it out of the registry-construction path entirely.
     """
     if "postgres" not in _REGISTRY:
-        from .postgres_source import PostgresSource
         from .mysql_source import MySQLSource
+        from .postgres_source import PostgresSource
         from .s3_source import S3Source
         _REGISTRY["postgres"] = PostgresSource
         _REGISTRY["mysql"] = MySQLSource

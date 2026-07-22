@@ -30,8 +30,6 @@ import os
 import re
 from typing import Any
 
-import polars as pl
-
 from src.database import MedallionVault
 
 try:
