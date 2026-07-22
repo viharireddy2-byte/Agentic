@@ -29,8 +29,8 @@ Aegis takes a different approach: **detection, scoring, remediation, and anomaly
 
 ```
                     ┌──────────────┐
-  CSV / Postgres /  │   Connector   │
-  MySQL / S3   ───▶ │   (extract)   │
+  CSV / Postgres /  │   Connector  │
+  MySQL / S3  ───▶ │   (extract)   │
                     └──────┬───────┘
                            ▼
                   ┌────────────────┐
@@ -51,11 +51,11 @@ Aegis takes a different approach: **detection, scoring, remediation, and anomaly
                                      │  drift)        │
                                      └────────┬───────┘
                                               ▼
-                        ┌─────────────────────────────────────┐
+                        ┌───────────────────────────────────── ┐
                         │   MedallionVault (DuckDB, in-proc)   │
                         │   Bronze  →  Silver  →  Gold         │
                         │   + pipeline_runs + data_lineage log │
-                        └───────────────────┬───────────────────┘
+                        └───────────────────┬──────────────────┘
                                             ▼
                               Streamlit dashboard (10 pages)
                               + Prometheus metrics + alerting
