@@ -21,7 +21,7 @@ ANOMALY_CONTAMINATION = float(os.getenv("AEGIS_ANOMALY_CONTAMINATION", "0.03"))
 DRIFT_THRESHOLD_PCT = float(os.getenv("AEGIS_DRIFT_THRESHOLD_PCT", "15.0"))
 
 # -- dashboard -----------------------------------------------------------------
-DASHBOARD_TITLE = "Aegis Data Foundry"
+DASHBOARD_TITLE = "Agentic Aegis"
 DASHBOARD_ICON = "🛡️"
 
 # -- data source (multi-source connectors) --------------------------------------
