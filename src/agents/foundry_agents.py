@@ -1,5 +1,5 @@
 """
-Aegis Data Foundry — Autonomous Agents
+ Agentic Aegis — Autonomous Agents
 ========================================
 
 Four cooperating agents drive the self-healing pipeline:
