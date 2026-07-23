@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛡️ Agentic Aegis
+# 🛡️ Agentic Aegis 
 
 **Self-healing ETL: four cooperating agents that profile, score, fix, and watch your data — on top of a Bronze/Silver/Gold DuckDB warehouse.**
 
